@@ -32,7 +32,7 @@ Realice las siguientes actividades en un documento .Rmd
 1. Ejercicio 1
 #### Crear un identificador de nombre "ciudad" y asigne como valor el nombre de alguna ciudad
 ```{r Ejercicio1}
-# Ejercicio 1:
+# Ejercicio 1: Ciudad donde vivo
 ciudad <- "Archidona"
 print(ciudad)
 ```
@@ -73,10 +73,6 @@ print(concentracion)
 ?DNase
 concentracion2 = subset(DNase, Run != 2 & conc > 0.2 & density <= 1.0)
 print(concentracion2)
-```
-
-```{r pressure, echo=FALSE}
-plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
