@@ -41,7 +41,7 @@ print(ciudad)
 #### Crear un identificador de nombre "pais_andes" y asigne como valor los nombres de los países por donde cruza la cordillera de Los Andes
 
 ```{r Ejercicio2}
-# Ejercicio 2:
+# Ejercicio 2: Datos país
 pais_andes <- c("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Perú", "Venezuela")
 print(pais_andes)
 ```
